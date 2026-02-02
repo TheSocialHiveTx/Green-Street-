@@ -1,0 +1,7 @@
+{
+  "name": "Greenstreet Builders",
+  "description": "Professional infill production homebuilder website connecting buyers and lot sellers.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
