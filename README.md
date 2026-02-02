@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Green Street Builders - Static Website
 
-# Run and deploy your AI Studio app
+This is the static HTML website for Green Street Builders. It is designed to be lightweight, fast, and easy to host on platforms like GitHub Pages.
 
-This contains everything you need to run your app locally.
+## Hosting on GitHub Pages
 
-View your app in AI Studio: https://ai.studio/apps/drive/1xQ3nPA2ZS2m7ML151DF9VE9zfH0CvhX3
+1. **Push to GitHub**: Push this repository to a new GitHub repository.
+2. **Enable Pages**: 
+   - Go to **Settings** > **Pages** in your GitHub repository.
+   - Under **Build and deployment**, set the source to **Deploy from a branch**.
+   - Select the `main` branch and the `/ (root)` folder.
+   - Click **Save**.
+3. **Enjoy**: Your site will be live at `https://<your-username>.github.io/<repo-name>/` in a few minutes.
 
-## Run Locally
+## Local Development
 
-**Prerequisites:**  Node.js
+Since this is a simple static site, you can view it by simply opening `index.html` in any web browser. 
 
+Alternatively, you can use a simple dev server:
+```bash
+npx serve .
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Technologies Used
+- HTML5 / CSS3
+- Tailwind CSS (via CDN)
+- Lucide Icons (via CDN)
+- Google Fonts
